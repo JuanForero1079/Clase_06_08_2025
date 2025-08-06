@@ -1,0 +1,113 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  background-color: #fff;
+  margin: auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1976d2;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  background: #f1f3f4;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+  transform: scale(1.1);
+}
+
+input[type="color"] {
+  padding: 2px;
+  border: none;
+  background: transparent;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #1976d2;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"] {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #115293;
+}
+
+button[type="reset"] {
+  background-color: #e53935;
+  color: #fff;
+  margin-top: 10px;
+}
+
+button[type="reset"]:hover {
+  background-color: #b71c1c;
+}
+
+.resultado {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-left: 6px solid #1976d2;
+  display: none;
+  border-radius: 8px;
+}
+
+.resultado h3 {
+  color: #0d47a1;
+}
